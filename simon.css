@@ -1,0 +1,41 @@
+body{
+  background-color: #E1FFB1;
+  text-align: center;
+}
+h1{
+  font-size: 4rem;
+  font-family: cursive;
+  color: #863A6F;
+}
+.box{
+  height: 200px;
+  width: 200px;
+  margin: 40px;
+
+  display: inline-block;
+  border: 5px solid black;
+  border-radius: 15%;
+}
+.box-1{
+  background-color: green;
+}
+.box-2{
+  background-color: red;
+}
+.box-3{
+  background-color: yellow;
+}
+.box-4{
+  background-color: blue;
+}
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: #E1FFB1;
+}
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+/* .box:hover{
+  zoom:105%;
+} */
